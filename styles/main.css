@@ -6,3 +6,74 @@
   font-family: "Nextart";
   src: url(../fonts/NEXT_ART_Regular.otf);
 }
+body {
+  background-color: #2a2a2a;
+}
+section {
+  width: 100%;
+  margin: auto;
+}
+div {
+  box-sizing: border-box;
+}
+a, p, h3 {
+  font-family: 'Aradora Pro';
+}
+a {
+  text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Next Art SemiBold';
+}
+li {
+  list-style-type: none;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+/* header
+================================================================== */
+.header{
+  height: 48px;
+  margin-top: 26px;
+  background-color: #2a2a2a;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.header__logo{
+  width: 181px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__wrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__nav{
+  width: 59%;
+  margin-right: 2%;
+}
+.header__nav_list{
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.header__nav_item a{
+  color: #E4E4E4;
+}
+.header__nav_item a:hover{
+  border-bottom: 2px solid #E29500;
+  padding-bottom: 3px;
+  color: white;
+  font-weight: 700;
+}
